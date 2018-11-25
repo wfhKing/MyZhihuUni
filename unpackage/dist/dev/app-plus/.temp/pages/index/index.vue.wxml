@@ -1,0 +1,22 @@
+<template name="02456424">
+  <view class="_view data-v-60c76515 content">
+    <view class="_view data-v-60c76515 uni-list">
+      <view class="_view data-v-60c76515 part2">
+        <swiper class="_swiper data-v-60c76515 banner-box" indicator-dots autoplay indicator-active-color="#169bd5" circular interval="{{5000}}" duration="{{300}}" indicator-color="rgba(0,0,0,.3)">
+          <swiper-item wx:key="index" key="{{index}}" wx:for="{{loop}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-60c76515">
+            <image class="_image data-v-60c76515 banner-image" src="{{item.image}}" mode="aspectFill" lazy-load bindtap="handleProxy" data-id="{{item.id}}" data-eventid="{{'QGP-0-'+index}}" data-comkey="{{$k}}"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_view data-v-60c76515 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" bindtap="handleProxy" data-id="{{item.id}}" data-eventid="{{'6uc-1-'+index}}" data-comkey="{{$k}}" wx:for="{{news}}" wx:for-index="index"
+        wx:for-item="item">
+        <view class="_view data-v-60c76515 uni-media-list">
+          <image class="_image data-v-60c76515 uni-media-list-logo" src="{{item.images}}"></image>
+          <view class="_view data-v-60c76515 uni-media-list-body">
+            <view class="_view data-v-60c76515 uni-media-list-text-top">{{item.title}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

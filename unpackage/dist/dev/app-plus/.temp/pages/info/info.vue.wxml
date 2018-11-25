@@ -1,0 +1,7 @@
+<template name="2809f610">
+  <view class="_view data-v-e27023a2 content">
+    <view class="_view data-v-e27023a2 art-content">
+      <rich-text class="_rich-text data-v-e27023a2 richTest" nodes="{{strings}}"></rich-text>
+    </view>
+  </view>
+</template>
